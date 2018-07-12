@@ -34,10 +34,10 @@ int login()
 		short isValid = isValidUser(username,password);
 		if(isValid==1)
 		{
-			printf("ok, you are in");
+			printf("ok, you are in\n");
 		}else
 		{
-			printf("username or password is wrong!");
+			printf("username or password is wrong!\n");
 		}
 		//
 		return isValid;
